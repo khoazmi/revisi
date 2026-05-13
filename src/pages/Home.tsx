@@ -22,7 +22,7 @@ export default function Home() {
       <main className="px-5 pt-6 space-y-6">
         <section className="flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold text-on-surface">Hello, Pak Hendra! 👋🏻</h1>
+            <h1 className="text-2xl font-bold text-on-surface">Hello, Pak Arief! 👋🏻</h1>
           </div>
           <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary-fixed shadow-sm">
             <img 

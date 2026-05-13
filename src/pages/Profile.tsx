@@ -26,7 +26,7 @@ export default function Profile() {
               src={USER_AVATAR_IMAGE}
             />
           </div>
-          <h2 className="text-3xl font-bold text-on-surface mb-1">Pak Hendra</h2>
+          <h2 className="text-3xl font-bold text-on-surface mb-1">Pak Arief</h2>
           <p className="text-base text-on-surface-variant mb-5">Sustainability Enthusiast</p>
           <button className="bg-primary-container text-on-primary-container font-medium text-sm px-5 py-2.5 rounded-lg hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-2 shadow-sm">
             <Edit3 size={18} />
