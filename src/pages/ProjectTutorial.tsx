@@ -8,6 +8,9 @@ import flattenPlasticImage from '../assets/flatten_plastic.jpg';
 import ironingPlasticImage from '../assets/ironing_plastic.jpg';
 import measureCardboardImage from '../assets/measure_cardboard.jpeg';
 import assembleCardboardImage from '../assets/assemble_cardboard.jpg';
+import cansImage from '../assets/cans.jpg';
+import freezingCanImage from '../assets/freezing_can.jpg';
+import holingCanImage from '../assets/holing_can.jpg';
 
 const tutorials = {
   default: {
@@ -153,17 +156,17 @@ const tutorials = {
       {
         title: 'Clean the Can',
         desc: 'Wash an empty tin can thoroughly and remove the paper label completely.',
-        img: 'https://images.unsplash.com/photo-1595057097725-78e71bdac7b1?q=80&w=600&h=400&fit=crop'
+        img: cansImage
       },
       {
         title: 'Freeze Water Inside',
         desc: 'Fill the can with water and freeze it solid. This prevents the can from denting when you punch holes.',
-        img: 'https://images.unsplash.com/photo-1582218770732-ddb63e9f5e04?q=80&w=600&h=400&fit=crop'
+        img: freezingCanImage
       },
       {
         title: 'Punch the Pattern',
         desc: 'Use a hammer and a nail to punch holes into the can following a pattern or design.',
-        img: 'https://images.unsplash.com/photo-1610486339179-813c9fb64696?q=80&w=600&h=400&fit=crop'
+        img: holingCanImage
       },
       {
         title: 'Melt Ice and Light',

@@ -96,12 +96,12 @@ export default function Home() {
             <h2 className="text-xl font-bold text-on-surface">Upcycle Project for You</h2>
             <button className="text-primary text-sm font-bold">See all</button>
           </div>
-          <div className="flex gap-4 overflow-x-auto hide-scrollbar pb-4 -mx-5 px-5 snap-x">
+          <div className="flex gap-3 sm:gap-4 overflow-x-auto hide-scrollbar pb-4 -mx-5 px-5 snap-x">
             <div 
               onClick={() => navigate('/tutorial/bottle-plant-pot')}
-              className="min-w-[140px] sm:min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              className="w-[42vw] min-w-[118px] max-w-[140px] sm:w-auto sm:min-w-[180px] sm:max-w-none bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
             >
-              <div className="h-[120px] w-full">
+              <div className="h-[104px] sm:h-[120px] w-full">
                 <img 
                   alt="Bottle Plant Pot" 
                   className="w-full h-full object-cover" 
@@ -117,9 +117,9 @@ export default function Home() {
 
             <div 
               onClick={() => navigate('/tutorial/plastic-apron')}
-              className="min-w-[140px] sm:min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              className="w-[42vw] min-w-[118px] max-w-[140px] sm:w-auto sm:min-w-[180px] sm:max-w-none bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
             >
-              <div className="h-[120px] w-full">
+              <div className="h-[104px] sm:h-[120px] w-full">
                 <img 
                   alt="Plastic Apron" 
                   className="w-full h-full object-cover" 
@@ -135,9 +135,9 @@ export default function Home() {
 
              <div 
               onClick={() => navigate('/tutorial/desk-organizer')}
-              className="min-w-[140px] sm:min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              className="w-[42vw] min-w-[118px] max-w-[140px] sm:w-auto sm:min-w-[180px] sm:max-w-none bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
             >
-              <div className="h-[120px] w-full bg-surface-variant flex items-center justify-center">
+              <div className="h-[104px] sm:h-[120px] w-full bg-surface-variant flex items-center justify-center">
                  <img 
                   alt="Cardboard Organizer" 
                   className="w-full h-full object-cover" 
