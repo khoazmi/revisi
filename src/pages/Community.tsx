@@ -64,7 +64,7 @@ export default function Community() {
               </div>
 
               <button 
-                onClick={() => navigate('/tutorial/bottle-planter-challenge')}
+                onClick={() => navigate('/tutorial/bottle-plant-pot')}
                 className="w-max flex items-center gap-2 bg-white text-primary px-6 py-3 rounded-xl text-sm font-bold transition-all hover:bg-secondary-fixed hover:text-on-secondary-fixed-variant active:scale-95 shadow-md"
               >
                 Join Challenge

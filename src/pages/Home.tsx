@@ -99,7 +99,7 @@ export default function Home() {
           <div className="flex gap-4 overflow-x-auto hide-scrollbar pb-4 -mx-5 px-5 snap-x">
             <div 
               onClick={() => navigate('/tutorial/bottle-plant-pot')}
-              className="min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              className="min-w-[140px] sm:min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
             >
               <div className="h-[120px] w-full">
                 <img 
@@ -117,7 +117,7 @@ export default function Home() {
 
             <div 
               onClick={() => navigate('/tutorial/plastic-apron')}
-              className="min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              className="min-w-[140px] sm:min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
             >
               <div className="h-[120px] w-full">
                 <img 
@@ -135,7 +135,7 @@ export default function Home() {
 
              <div 
               onClick={() => navigate('/tutorial/desk-organizer')}
-              className="min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
+              className="min-w-[140px] sm:min-w-[180px] bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 snap-start flex-shrink-0 cursor-pointer active:scale-95 transition-transform"
             >
               <div className="h-[120px] w-full bg-surface-variant flex items-center justify-center">
                  <img 

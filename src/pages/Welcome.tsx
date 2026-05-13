@@ -53,7 +53,7 @@ export default function Welcome() {
                 style={{ transform: `translateX(-${current * 100}%)` }}
             >
                 {slides.map((s, i) => (
-                    <div key={i} className="min-w-full flex flex-col items-center px-12 text-center flex-shrink-0">
+                  <div key={i} className="min-w-full box-border flex flex-col items-center px-12 text-center flex-shrink-0">
                         <div className="w-full max-w-[200px] aspect-square flex items-center justify-center mb-6 bg-surface-container-lowest rounded-3xl p-4 shadow-sm">
                             <img alt={s.title} className="w-full h-full object-contain" src={s.img} />
                         </div>
