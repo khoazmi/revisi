@@ -1,0 +1,8 @@
+{
+  "name": "Trashform",
+  "description": "Recycling and upcycling tracking app",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

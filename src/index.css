@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #357046;
+  --color-primary-container: #2d6a4f;
+  --color-on-primary: #ffffff;
+  --color-secondary: #0e6c4a;
+  --color-secondary-container: #a0f4c8;
+  --color-on-secondary-container: #19724f;
+  --color-surface: #f8f9fa;
+  --color-surface-dim: #d9dadb;
+  --color-surface-bright: #FEFBF5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f3f4f5;
+  --color-surface-container: #edeeef;
+  --color-surface-container-high: #e7e8e9;
+  --color-on-surface: #191c1d;
+  --color-on-surface-variant: #404943;
+  --color-outline: #707973;
+  --color-outline-variant: #bfc9c1;
+  --color-background: #FEFBF5;
+  --color-on-background: #191c1d;
+  --color-error: #ba1a1a;
+  
+  --font-inter: "Inter", sans-serif;
+  --font-lato: "Lato", sans-serif;
+
+  --font-sans: "Lato", "Inter", sans-serif;
+}
+
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  margin: 0;
+  min-height: 100dvh;
+  overscroll-behavior: none;
+}
+
+.mobile-app-shell {
+  width: min(100vw, 430px);
+  height: 100dvh;
+  min-height: 100dvh;
+  margin: 0 auto;
+}
+
+.mobile-app-content {
+  padding-bottom: calc(88px + var(--safe-bottom));
+}
+
+.mobile-bottom-nav {
+  height: calc(88px + var(--safe-bottom));
+  padding-bottom: calc(0.5rem + var(--safe-bottom));
+  padding-left: max(1rem, var(--safe-left));
+  padding-right: max(1rem, var(--safe-right));
+}
+
+@media (min-width: 768px) {
+  .mobile-app-shell {
+    max-height: min(92dvh, 900px);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 1.25rem;
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.18);
+  }
+
+  .mobile-bottom-nav {
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
